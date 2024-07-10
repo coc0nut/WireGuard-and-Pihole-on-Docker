@@ -12,7 +12,7 @@ using macvlan to appear on the physical network.
 git clone https://github.com/coc0nut/WireGuard-and-Pihole-on-Docker.git \
 && cd WireGuard-and-Pihole-on-Docker \
 && chmod +x *.sh \
-&& ./install
+&& ./install.sh
 ```
 
 It will spin it up automatically in reagards to your network environment.
