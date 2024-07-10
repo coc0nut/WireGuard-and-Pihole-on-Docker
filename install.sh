@@ -6,6 +6,7 @@ fi
 
 read -p "Enter the public ip or hostname for your server: " pubhost
 read -sp "Enter your password for the WG and Pihole logins: " passw
+echo
 read -p "Enter your timezone: " tz
 
 echo "WG_HOST=${pubhost}" > .env
@@ -30,6 +31,7 @@ echo "PH_IP=${ip_address:0:-$index_position}231" >> .env
 
 subnet=${ip_address:0:-$index_position}224/27
 echo "wg client subnet: $subnet"
+echo "subnet=$subnet" >> .env
 
 docker compose up -d
 
