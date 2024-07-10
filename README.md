@@ -1,4 +1,4 @@
-# WireGuard server with Pihole DNS on Docker 
+<h1 align="center"> WireGuard server with Pihole DNS on Docker </h1> 
 
 <div align="center">
 <img src="https://github.com/coc0nut/WireGuard-and-Pihole-on-Docker/assets/9300178/69e83f44-d7be-4feb-b88c-5b9237126d2c" alt="WireGuard" width="120" height="120" />
@@ -7,7 +7,7 @@
 </div>
 
 ---
-using macvlan to appear on the physical network.
+<h3 align="center">using macvlan to appear on the physical network.</h3>
 ---
 
 ```shell
