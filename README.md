@@ -28,3 +28,4 @@ The Pihole container will have the ip x.x.x.231 and can be administered at http:
 - Be sure to know your public hostname or ip, a password you would like to use for WG admin and Pihole admin.
 - There is also an uninstall script to undo everything.
 
+`./unsintall` will remove everything. Then you can also reinstall with `./install.sh` 
