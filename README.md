@@ -6,7 +6,7 @@
 <img src="https://github.com/coc0nut/WireGuard-and-Pihole-on-Docker/assets/9300178/2aa47e18-eb79-450f-9f3e-5b57572bf911" alt="PiHole" width="600" height="120" />
 </div>
 
----
+
 <h3 align="center">using macvlan to appear on the physical network.</h3>
 ---
 
