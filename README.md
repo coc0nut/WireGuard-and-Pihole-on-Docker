@@ -20,8 +20,9 @@ git clone https://github.com/coc0nut/WireGuard-and-Pihole-on-Docker.git \
 
 It will spin it up automatically regard to the network environment for the dockerhost running this.
 It will find your ip for the dockerhost, see what subnet it resides in.
-The WireGuard container will have an ip of x.x.x.230 and can be adminsitered at http://x.x.x.230:51821
-The Pihole container will have the ip x.x.x.231 and can be administered at http://x.x.x.231/admin
+
+- The WireGuard container will have an ip of x.x.x.230 and can be adminsitered at http://x.x.x.230:51821
+- The Pihole container will have the ip x.x.x.231 and can be administered at http://x.x.x.231/admin
 
 
 - It will automatically set up the routing.
